@@ -25,4 +25,24 @@ ul{
 }
 .bg-style{
     background-color :rgb(62, 62, 104);
+    margin-top: -20px;
+}
+.header-menu ul li{
+    list-style: none;
+    width:100%;
+    color:black;
+    margin:80px;
+
+}
+.header-menu ul{
+    display :flex;
+    margin-right:40px;
+}
+.header-menu{
+    
+    margin-left:150px;
+    font-size:25px;
+}
+.header-style{
+    margin:15px;
 }
