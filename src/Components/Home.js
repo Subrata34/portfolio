@@ -14,8 +14,10 @@ const Home = () => {
                     <li>About</li>
                     <li>Blog</li>
                     <li>Project</li>
-                    <li>Experience</li>
                     <li>Contact</li>
+                    <li style={{}}>
+                        <a href="https://drive.google.com/file/d/18bbwqOIbSSkqOmBroyEx01deUZ9_uwa2/view?usp=sharing">
+                        <button  style={{color:"black",backgroundColor:"green",borderRadius:"15px"}}>Resume</button></a></li>
                 </ul>
             </div>
         </div>
