@@ -6,8 +6,8 @@ const Contact = () => {
             <div>
              <h1> contact Me </h1>
             </div>
-        <div class="container" style={{backgroundColor:"gray ",color:"black"}}>
-            <h1>Contact</h1>
+        <div class="container" style={{backgroundColor:"gray ",color:"black",width:"400px"}}>
+            <h1>Information Me</h1>
              <form action="">
                  <div className="form-group">
                      <label for="firstName" style ={{margin:"20px"}}>First Name:</label>
