@@ -1,8 +1,9 @@
 import React from 'react'
+import './Contract.css'
 
 const Contact = () => {
     return (
-        <div style={{display:"flex"}}>
+        <div style={{display:"flex", backgroundColor:"orchid"}}>
             <div>
              <h1> contact Me </h1>
             </div>
@@ -10,7 +11,7 @@ const Contact = () => {
             <h1>Information Me</h1>
              <form action="">
                  <div className="form-group">
-                     <label for="firstName" style ={{margin:"20px"}}>First Name:</label>
+                     <label for="firstName" style={{marginRight:"105px"}}>First Name:</label>
                      <input type="text" name="firstName" id="firstName" />
                  </div>
                  <div className="form-group">
