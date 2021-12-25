@@ -1,6 +1,8 @@
 import React from 'react'
+
 import './Home.css';
 const Home = () => {
+
     return (
         <div>
             <div style={{display:"flex"}} class="bg-style">
@@ -25,7 +27,7 @@ const Home = () => {
            <div>
                <h1 class="name-style">This is  Subrata Modak </h1>
                <div class="dynamic">
-              <h1>I am a <span style={{color:"orange"}}> Web Developer</span></h1>
+              <h1>I am a <span style={{color:"orange"}} class="auto-input"> Web Developer</span></h1>
                </div>
                <div>
               <a style={{textAlign:"center",marginLeft:"-150px"}} href="https://drive.google.com/file/d/18bbwqOIbSSkqOmBroyEx01deUZ9_uwa2/view?usp=sharing"> 
@@ -37,6 +39,8 @@ const Home = () => {
                <img style={{width:"400px",clipPath:"circle()"}} src="./image/image01.jpg"  alt="" />
            </div>
         </div>
+        
+         
         </div>
     )
 }
