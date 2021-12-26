@@ -2,6 +2,7 @@ import React from 'react'
 import './Contract.css'
 
 const Contact = () => {
+   
     return (
         <div style={{display:"flex", backgroundColor:"orchid"}}>
             <div>
@@ -15,17 +16,17 @@ const Contact = () => {
                      <input type="text" name="firstName" id="firstName" />
                  </div>
                  <div className="form-group">
-                     <label for="lastName" style ={{margin:"20px"}} >Last Name :</label>
+                     <label for="lastName" style ={{margin:"20px",marginRight:"105px"}} >Last Name :</label>
                      <input type="text" name="lastName" id="firstName" />
                  </div>
                  <div className="form-group">
-                     <label for="email" style ={{margin:"20px"}}>Email Address :</label>
+                     <label for="email" style ={{margin:"20px",marginRight:"105px"}}>Email Address :</label>
                      <input style={{marginRight:"10px"}} type="email" name="email" id="email" />
                  </div>
                  <div className="form-group">
-                 <label for="massage" style ={{margin:"15px"}}>Massage :</label>
+                 <label for="massage" style ={{margin:"15px",marginRight:"150px"}}>Massage :</label>
                     
-                     <textarea name="massage" id="massage" cols="30" rows="5">
+                     <textarea name="massage" id="massage" cols="25" rows="5">
                      </textarea>
                  </div>
                  <button type="submit" style ={{margin:"20px",paddingRight:"40px",borderRadius:"15px",
