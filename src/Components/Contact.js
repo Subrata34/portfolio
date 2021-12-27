@@ -5,9 +5,7 @@ const Contact = () => {
    
     return (
         <div style={{display:"flex", backgroundColor:"orchid"}}>
-            <div>
-             <h1> contact Me </h1>
-            </div>
+            
         <div class="container" style={{backgroundColor:"gray ",color:"black",width:"400px"}}>
             <h1>Information Me</h1>
              <form action="">

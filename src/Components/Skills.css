@@ -1,0 +1,37 @@
+.left{
+height:400px;
+  width:500px;
+  object-fit:cover
+  
+}
+.column{
+    width:calc(50% -30px)
+
+}
+.right{
+    margin-top: 30px;
+    margin-left:25px ;
+}
+.right .bars {
+    margin-bottom: 15px;
+}
+.right .bars .box .text{
+    margin-left: 500px;
+
+}
+.right .line{
+    height:5px;
+    width:100%;
+    background: lightgray;
+    position:relative;
+}
+.right .line::before{
+    content:"";
+    position:absolute;
+    height:100%;
+    width:80%;
+    top:0;
+    left:0;
+    background: red;
+
+}
