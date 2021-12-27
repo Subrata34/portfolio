@@ -24,8 +24,8 @@ const Contact = () => {
                        <h4>subrata2202@gmail.com </h4>
                  </div>
             </div>
-        <div class="container" style={{backgroundColor:"gray ",
-        color:"black",width:"400px",marginRight:"5px"}}>
+        <div class="container" style={{backgroundColor:"#7FFF00 ",
+        color:"black",width:"400px"}}>
             <h1>Information Me</h1>
              <form action="">
                  <div className="form-group">
