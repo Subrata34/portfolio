@@ -7,24 +7,25 @@ const Contact = () => {
         <div>
             <h1>Contact Me</h1>
         <div style={{display:"flex"}}>
-            <div style={{width:"300px",marginLeft:"120px"}}>
+            <div style={{width:"300px",marginLeft:"120px",marginTop:"20px"}}>
                  <h2 >Contact Information</h2>
                  <div>
-                     <h3><i class="fas fa-user"><br /></i>Name</h3>
+                     <h3><i class="fas fa-user" style={{marginLeft:"20px"}}><br /></i>Name</h3>
                      <h4>Subrata Modak</h4>
 
                  </div>
                  <div>
-                     <h3>Address</h3>
-                     
+                     <h3><i class="fas fa-map-marker-alt" style={{marginLeft:"20px"}}></i>Address</h3>
+                     <h4>Dhaka,Bangladesh</h4>
 
                  </div>
                  <div>
-
+                       <h3><i class="fas fa-envelope-square" style={{marginLeft:"20px"}} ></i>Email Address</h3>
+                       <h4>subrata2202@gmail.com </h4>
                  </div>
             </div>
         <div class="container" style={{backgroundColor:"gray ",
-        color:"black",width:"400px",marginRight:"25px"}}>
+        color:"black",width:"400px",marginRight:"5px"}}>
             <h1>Information Me</h1>
              <form action="">
                  <div className="form-group">
