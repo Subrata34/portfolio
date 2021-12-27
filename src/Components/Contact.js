@@ -4,9 +4,14 @@ import './Contract.css'
 const Contact = () => {
    
     return (
-        <div style={{display:"flex", backgroundColor:"orchid"}}>
-            
-        <div class="container" style={{backgroundColor:"gray ",color:"black",width:"400px"}}>
+        <div>
+            <h1>Contact Me</h1>
+        <div style={{display:"flex"}}>
+            <div style={{width:"300px",marginLeft:"120px"}}>
+                 <h2 >Contact Information</h2>
+            </div>
+        <div class="container" style={{backgroundColor:"gray ",
+        color:"black",width:"400px",marginRight:"25px"}}>
             <h1>Information Me</h1>
              <form action="">
                  <div className="form-group">
@@ -31,6 +36,7 @@ const Contact = () => {
                   backgroundColor:"green",paddingLeft:"40px"}}>Submit</button>
                  
                 </form>            
+        </div>
         </div>
         </div>
     )
