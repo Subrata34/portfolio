@@ -9,6 +9,19 @@ const Contact = () => {
         <div style={{display:"flex"}}>
             <div style={{width:"300px",marginLeft:"120px"}}>
                  <h2 >Contact Information</h2>
+                 <div>
+                     <h3><i class="fas fa-user"><br /></i>Name</h3>
+                     <h4>Subrata Modak</h4>
+
+                 </div>
+                 <div>
+                     <h3>Address</h3>
+                     
+
+                 </div>
+                 <div>
+
+                 </div>
             </div>
         <div class="container" style={{backgroundColor:"gray ",
         color:"black",width:"400px",marginRight:"25px"}}>
