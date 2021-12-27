@@ -4,7 +4,14 @@ const About = () => {
     return (
         <div>
             <h1>About Me</h1>
-            <h3>I am learn Web Development</h3>
+            <h4>I am  Subrata Modak and I am a Font End Developer  </h4>
+            <p style={{width:"700px",marginLeft:"260px" }}>I am an  enthustic person and who learn new tools enhance capbility .
+               I am providing interactive web development and I am hard work and enthustic person secure applications in all verticals 
+               using latest tools and platforms for designing and developing powerful user-friendly interfaces. 
+            </p>
+
+
+            
         </div>
     )
 }
