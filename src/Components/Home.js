@@ -12,15 +12,16 @@ const Home = () => {
             </div>
             <div className="header-menu">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
+                <li>Home</li>
+                    <li>About </li>
                     <li>Blog</li>
                     <li>Project</li>
                     <li>Contact</li>
-                    <li style={{}}>
-                        <a href="https://drive.google.com/file/d/18bbwqOIbSSkqOmBroyEx01deUZ9_uwa2/view?usp=sharing">
-                        <button  style={{color:"black",backgroundColor:"green",borderRadius:"15px"}}>Resume</button></a></li>
-                </ul>
+                    
+                       <li><a href="https://drive.google.com/file/d/18bbwqOIbSSkqOmBroyEx01deUZ9_uwa2/view?usp=sharing">
+                        <button  style={{color:"black",backgroundColor:"green",borderRadius:"15px"}}>Resume</button></a>
+                        </li>
+            </ul>
             </div>
         </div>
         <div style={{display:"flex"}} class="bg-style">

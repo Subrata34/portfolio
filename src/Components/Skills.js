@@ -17,29 +17,29 @@ const Skills = () => {
                      <div class="column right">
                          <div className="bars">
                              <div className="box">
-                                 <span style={{marginLeft:"28px",color:"black"}}>HTML</span>
-                                 <span class="text">90%</span>
+                                 <span style={{marginLeft:"28px",color:"white"}}>HTML</span>
+                                 <span class="text"style={{color:"white"}}>90%</span>
                                  <div className="line html"></div>
                              </div>
                          </div>
                          <div className="bars">
                              <div className="box">
-                                 <span style={{marginLeft:"40px",color:"black"}}>CSS</span>
-                                 <span class="text">60%</span>
+                                 <span style={{marginLeft:"40px",color:"white"}}>CSS</span>
+                                 <span class="text" style={{color:"white"}}>60%</span>
                                  <div className="line css"></div>
                              </div>
                          </div>
                          <div className="bars">
                              <div className="box">
-                                 <span style={{color:"black"}}>JavaScript</span>
-                                 <span class="text">60%</span>
+                                 <span style={{color:"white"}}>JavaScript</span>
+                                 <span class="text" style={{color:"white"}}>60%</span>
                                  <div className="line js"></div>
                              </div>
                          </div>
                          <div className="bars">
                              <div className="box">
-                                 <span style={{color:"black"}}>MongoDB</span>
-                                 <span class="text">40%</span>
+                                 <span style={{color:"white"}}>MongoDB</span>
+                                 <span class="text"style={{color:"white"}} >40%</span>
                                  <div className="line mongoDB"></div>
                              </div>
                          
