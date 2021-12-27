@@ -20,7 +20,7 @@ const Skills = () => {
                              <div className="box">
                                  <span style={{marginLeft:"28px"}}>HTML</span>
                                  <span class="text">90%</span>
-                                 <div className="line HTML"></div>
+                                 <div className="line html"></div>
                              </div>
                          </div>
                          <div className="bars">

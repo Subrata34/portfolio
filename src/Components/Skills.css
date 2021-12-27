@@ -29,9 +29,20 @@ height:400px;
     content:"";
     position:absolute;
     height:100%;
-    width:80%;
     top:0;
     left:0;
     background: red;
 
+}
+.right  .html::before{
+    width:90%;
+}
+.right .css::before{
+    width:70%;
+}
+.right  .js::before{
+    width:80%;
+}
+.right  .mongoDB::before{
+    width:40%;
 }
