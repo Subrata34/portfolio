@@ -7,7 +7,7 @@ import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 function App() {
   return (
-    <div className="App">     
+    <div className="App"style={{backgroundColor:"rgb(62, 62, 104)"}}>     
        <Home></Home>
        <About></About>
        <Skills></Skills>

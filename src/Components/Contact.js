@@ -4,27 +4,27 @@ import './Contract.css'
 const Contact = () => {
    
     return (
-        <div>
+        <div style={{color:"black"}}>
             <h1>Contact Me</h1>
         <div style={{display:"flex"}}>
             <div style={{width:"300px",marginLeft:"120px",marginTop:"20px"}}>
                  <h2 >Contact Information</h2>
                  <div>
-                     <h3><i class="fas fa-user" style={{marginLeft:"20px"}}><br /></i>Name</h3>
-                     <h4>Subrata Modak</h4>
+                     <h3><i class="fas fa-user" style={{marginLeft:"20px",color:"red"}}><br /></i>Name</h3>
+                     <h4 style={{color:"white"}}>Subrata Modak</h4>
 
                  </div>
                  <div>
-                     <h3><i class="fas fa-map-marker-alt" style={{marginLeft:"20px"}}></i>Address</h3>
-                     <h4>Dhaka,Bangladesh</h4>
+                     <h3><i class="fas fa-map-marker-alt" style={{marginLeft:"20px",color:"red"}}></i>Address</h3>
+                     <h4 style={{color:"white"}}>Dhaka,Bangladesh</h4>
 
                  </div>
                  <div>
-                       <h3><i class="fas fa-envelope-square" style={{marginLeft:"20px"}} ></i>Email Address</h3>
-                       <h4>subrata2202@gmail.com </h4>
+                       <h3><i class="fas fa-envelope-square" style={{marginLeft:"20px",color:"red"}} ></i>Email Address</h3>
+                       <h4 style={{color:"white"}}>subrata2202@gmail.com </h4>
                  </div>
             </div>
-        <div class="container" style={{backgroundColor:"#7FFF00 ",
+        <div class="container" style={{backgroundColor:"gray ",
         color:"black",width:"400px"}}>
             <h1>Information Me</h1>
              <form action="">
