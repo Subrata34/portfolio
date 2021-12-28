@@ -7,15 +7,21 @@ const Projects = () => {
            <h1 style={{color:"white"}}> Porjects</h1>
            
                <div class="card">
-                   <img style={{clipPath:"circle()", width:"400px",marginLeft:"-75px"}}
+                   <img style={{ width:"440px"}}
                     src="./image/image02.jpg" alt=""  />
                      <div class="container">
                     <h4><b>Health Care</b></h4> 
                     <p>This projects is about health care 
                         Which user login by email and doctor see services   </p> 
-  </div>
+                 </div>
+                 <div>
+                 <a style={{marginRight:"20px",color:"black"}} href="https://health-care-d0445.web.app"><i class="fas fa-globe">Live site</i></a>
 
-               </div>
+                 <a  style={{color:"black"} href="https://github.com/Subrata34/health-care-"><i class="fab fa-github">Github Link</i></a>
+                 </div>
+                 
+
+              </div>
        </div>
     )
 }
