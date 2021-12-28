@@ -14,10 +14,9 @@ const Projects = () => {
                     <p>This projects is about health care 
                         Which user login by email and doctor see services   </p> 
                  </div>
-                 <div>
-                 <a style={{marginRight:"20px",color:"black"}} href="https://health-care-d0445.web.app"><i class="fas fa-globe">Live site</i></a>
-
-                 <a  style={{color:"black"} href="https://github.com/Subrata34/health-care-"><i class="fab fa-github">Github Link</i></a>
+                 <div style={{display:"flex"}}>
+                <p style={{marginLeft:"90px"}} ><a  href="https://health-care-d0445.web.app"><i class="fas fa-globe">Live site</i></a></p>
+                <p style={{marginLeft:"90px"}} ><a  href="https://github.com/Subrata34/health-care-"><i class="fab fa-github">Github Link</i></a></p> 
                  </div>
                  
 
