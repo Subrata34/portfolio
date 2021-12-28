@@ -46,3 +46,12 @@ height:400px;
 .right  .mongoDB::before{
     width:40%;
 }
+.right  .react::before{
+    width:80%;
+}
+.right  .bootstrap::before{
+    width:70%;
+}
+.right  .tailwind::before{
+    width:80%;
+}

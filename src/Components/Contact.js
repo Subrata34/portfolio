@@ -5,10 +5,10 @@ const Contact = () => {
    
     return (
         <div style={{color:"black"}}>
-            <h1 >Contact Me</h1>
+            <h1 style={{color:"white"}}>Contact Me</h1>
         <div style={{display:"flex"}}>
             <div style={{width:"300px",marginLeft:"120px",marginTop:"20px"}}>
-                 <h2 style={{color:"red"}} >Contact Information</h2>
+                 <h2 style={{color:"white"}} >Contact Information</h2>
                  <div>
                      <h3><i class="fas fa-user" style={{marginLeft:"20px",color:"red"}}><br /></i>Name</h3>
                      <h4 style={{color:"white"}}>Subrata Modak</h4>
@@ -26,7 +26,7 @@ const Contact = () => {
             </div>
         <div class="container" style={{backgroundColor:"gray ",
         color:"black",width:"400px"}}>
-            <h1 style={{color:"red"}}>Information Me</h1>
+            <h1 style={{color:"white"}}>Information Me</h1>
              <form action="">
                  <div className="form-group">
                      <label for="firstName" style={{marginRight:"105px"}}>First Name:</label>

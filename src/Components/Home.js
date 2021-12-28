@@ -1,4 +1,6 @@
+
 import React from 'react'
+import { HashLink } from 'react-router-hash-link';
 
 import './Home.css';
 const Home = () => {
@@ -7,7 +9,7 @@ const Home = () => {
         <div>
             <div style={{display:"flex"}} class="bg-style">
             <div className="header-style">
-                <h1>SM</h1>
+                <h1 style={{color:"white"}}>SM</h1>
 
             </div>
             <div className="header-menu">
