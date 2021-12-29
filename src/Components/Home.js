@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { HashLink } from 'react-router-hash-link';
+import Typewriter from 'typewriter-effect';
 
 import './Home.css';
 const Home = () => {
@@ -30,7 +31,22 @@ const Home = () => {
            <div>
                <h1 class="name-style">This is  Subrata Modak </h1>
                <div class="dynamic">
-              <h1>I am a <span style={{color:"orange"}} class="auto-input"> Web Developer</span></h1>
+              <h1>I am a <span style={{color:"orange"}} class="auto-input"> <Typewriter
+               
+               options={{
+                   strings:[
+                       "Web developer",
+                       "MERN Stack Developer",
+                       "React js Developer",
+                       "Font End Developer",
+                   ],
+                   autoStart:true,
+                   loop:true,
+                   deleteSpeed:80,
+               }}
+               
+               />
+              </span></h1>
                </div>
                <div>
               <a style={{textAlign:"center",marginLeft:"-150px"}} href="https://drive.google.com/file/d/18bbwqOIbSSkqOmBroyEx01deUZ9_uwa2/view?usp=sharing"> 

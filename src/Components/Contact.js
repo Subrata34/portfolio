@@ -28,7 +28,7 @@ const Contact = () => {
         color:"black",width:"400px"}}>
         <div >
             <h2 style={{color:"white"}}>Information Me</h2>
-             <form style={{backgroundColor:"white"}} action="https://formsubmit.co/subratamodak3491@gmail.com" method="POST">
+             <form style={{backgroundColor:"white"}} action="https://formsubmit.co/subratamodak3491@gmail.com " method="POST">
                  <div className="form-group">
                      <label for="firstName" style={{marginRight:"105px",borderRadius:"15px",color:"black"}}>First Name:</label>
                      <input style={{borderRadius:"5px"}} type="text" name="firstName" id="firstName" />
