@@ -24,26 +24,26 @@ const Contact = () => {
                        <h4 style={{color:"white"}}>subrata2202@gmail.com </h4>
                  </div>
             </div>
-        <div class="container" style={{backgroundColor:"gray ",
+        <div class="container" style={{backgroundColor:" ",
         color:"black",width:"400px"}}>
             <h1 style={{color:"white"}}>Information Me</h1>
              <form action="">
                  <div className="form-group">
-                     <label for="firstName" style={{marginRight:"105px"}}>First Name:</label>
-                     <input type="text" name="firstName" id="firstName" />
+                     <label for="firstName" style={{marginRight:"105px",borderRadius:"15px",color:"white"}}>First Name:</label>
+                     <input style={{borderRadius:"15px"}} type="text" name="firstName" id="firstName" />
                  </div>
                  <div className="form-group">
-                     <label for="lastName" style ={{margin:"20px",marginRight:"105px"}} >Last Name :</label>
-                     <input type="text" name="lastName" id="firstName" />
+                     <label for="lastName" style ={{margin:"20px",marginRight:"105px",color:"white"}} >Last Name :</label>
+                     <input style={{borderRadius:"15px"}} type="text" name="lastName" id="firstName" />
                  </div>
                  <div className="form-group">
-                     <label for="email" style ={{margin:"20px",marginRight:"105px"}}>Email Address :</label>
-                     <input style={{marginRight:"10px"}} type="email" name="email" id="email" />
+                     <label for="email" style ={{margin:"20px",marginRight:"105px",color:"white"}}>Email Address :</label>
+                     <input style={{marginRight:"10px",borderRadius:"15px"}} type="email" name="email" id="email" />
                  </div>
                  <div className="form-group">
-                 <label for="massage" style ={{margin:"15px",marginRight:"150px"}}>Massage :</label>
+                 <label for="massage" style ={{margin:"15px",marginRight:"150px",color:"white"}}>Massage :</label>
                     
-                     <textarea name="massage" id="massage" cols="25" rows="5">
+                     <textarea  style={{borderRadius:"15px"}} name="massage" id="massage" cols="25" rows="5">
                      </textarea>
                  </div>
                  <button type="submit" style ={{margin:"20px",paddingRight:"40px",borderRadius:"15px",
