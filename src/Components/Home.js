@@ -1,6 +1,5 @@
 
 import React from 'react'
-import { HashLink } from 'react-router-hash-link';
 import Typewriter from 'typewriter-effect';
 
 import './Home.css';
