@@ -21,7 +21,7 @@ const Projects = () => {
                  </div>
                <div class="card">
                    <img style={{ width:"440px"}}
-                    src="./image/image02.jpg" alt=""  />
+                    src="./image/image03.jpg" alt=""  />
                      <div class="container">
                     <h4><b>Health Care</b></h4> 
                     <p>This projects is about health care 
