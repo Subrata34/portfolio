@@ -42,7 +42,7 @@ const Home = () => {
                    ],
                    autoStart:true,
                    loop:true,
-                   deleteSpeed:80,
+                   deleteSpeed:120,
                }}
                
                />
