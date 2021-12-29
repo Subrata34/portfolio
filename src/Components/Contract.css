@@ -2,3 +2,35 @@
 .container label{
     display:block;
 }
+button{
+    transition: 0.3s ease background-color;
+}
+#status{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+#status.success{
+    background-color: hsl(120, 96%, 21%);
+    animation: status 4s ease forwards;
+}
+#status.error{
+    background-color: hsl(0, 91%, 49%);
+    animation: status 4s ease forwards;
+}
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}

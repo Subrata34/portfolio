@@ -24,33 +24,37 @@ const Contact = () => {
                        <h4 style={{color:"white"}}>subrata2202@gmail.com </h4>
                  </div>
             </div>
-        <div class="container" style={{backgroundColor:" ",
+            <div class="container" style={{
         color:"black",width:"400px"}}>
-            <h1 style={{color:"white"}}>Information Me</h1>
-             <form action="">
+        <div >
+            <h2 style={{color:"white"}}>Information Me</h2>
+             <form style={{backgroundColor:"white"}} action="https://formsubmit.co/subratamodak3491@gmail.com" method="POST">
                  <div className="form-group">
-                     <label for="firstName" style={{marginRight:"105px",borderRadius:"15px",color:"white"}}>First Name:</label>
-                     <input style={{borderRadius:"15px"}} type="text" name="firstName" id="firstName" />
+                     <label for="firstName" style={{marginRight:"105px",borderRadius:"15px",color:"black"}}>First Name:</label>
+                     <input style={{borderRadius:"5px"}} type="text" name="firstName" id="firstName" />
                  </div>
                  <div className="form-group">
-                     <label for="lastName" style ={{margin:"20px",marginRight:"105px",color:"white"}} >Last Name :</label>
-                     <input style={{borderRadius:"15px"}} type="text" name="lastName" id="firstName" />
+                     <label for="lastName" style ={{margin:"20px",marginRight:"105px",color:"black"}} >Last Name :</label>
+                     <input style={{borderRadius:"5px"}} type="text" name="lastName" id="firstName" />
                  </div>
                  <div className="form-group">
-                     <label for="email" style ={{margin:"20px",marginRight:"105px",color:"white"}}>Email Address :</label>
-                     <input style={{marginRight:"10px",borderRadius:"15px"}} type="email" name="email" id="email" />
+                     <label for="email" style ={{margin:"20px",marginRight:"105px",color:"black"}}>Email Address :</label>
+                     <input style={{marginRight:"10px",borderRadius:"5px"}} type="email" name="email" id="email" />
                  </div>
                  <div className="form-group">
-                 <label for="massage" style ={{margin:"15px",marginRight:"150px",color:"white"}}>Massage :</label>
+                 <label for="massage" style ={{margin:"15px",marginRight:"150px",color:"black"}}>Massage :</label>
                     
-                     <textarea  style={{borderRadius:"15px"}} name="massage" id="massage" cols="25" rows="5">
+                     <textarea  style={{borderRadius:"10px"}} name="massage" id="massage" cols="25" rows="5">
                      </textarea>
                  </div>
                  <button type="submit" style ={{margin:"20px",paddingRight:"40px",borderRadius:"15px",
-                  backgroundColor:"green",paddingLeft:"40px"}}>Submit</button>
+                  backgroundColor:"green",paddingLeft:"40px",marginTop:"-10px"}}>Submit</button>
                  
-                </form>            
+                </form>  
+                </div>
+                 <div id="status" class="error" style={{color:"white"}}>Success</div>         
         </div>
+        
         </div>
         </div>
     )
