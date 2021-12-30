@@ -20,7 +20,7 @@ const Home = () => {
                     <li>Project</li>
                     <li>Contact</li>
                     
-                       <li><a href="https://drive.google.com/file/d/18bbwqOIbSSkqOmBroyEx01deUZ9_uwa2/view?usp=sharing">
+                       <li><a href="https://drive.google.com/file/d/1ZbNjneb3fuA21-FGus3Q3XXr9Jiyvf4d/view?usp=sharing">
                         <button  style={{color:"black",backgroundColor:"green",borderRadius:"15px"}}>Resume</button></a>
                         </li>
             </ul>
@@ -48,7 +48,7 @@ const Home = () => {
               </span></h1>
                </div>
                <div>
-              <a style={{textAlign:"center",marginLeft:"-150px"}} href="https://drive.google.com/file/d/18bbwqOIbSSkqOmBroyEx01deUZ9_uwa2/view?usp=sharing"> 
+              <a style={{textAlign:"center",marginLeft:"-150px"}} href="https://drive.google.com/file/d/1ZbNjneb3fuA21-FGus3Q3XXr9Jiyvf4d/view?usp=sharing"> 
               <button style={{textAlign:"center"}} style={{borderRadius:"15px",backgroundColor:"green"}}> Download Resume</button></a>
               </div>
            </div>
