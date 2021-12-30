@@ -30,7 +30,7 @@ const Projects = () => {
                  <div style={{display:"flex"}}>
                   <p style={{marginLeft:"30px"}} ><a  href="https://car-shop-96d46.web.app/"><i class="fas fa-globe">Live site</i></a></p>
                  <p style={{marginLeft:"60px"}} ><a  href="https://github.com/Subrata34/houda-car"><i class="fab fa-github">Github Link</i></a></p> 
-                 <p style={{marginLeft:"60px"}} ><a  href="https://github.com/programming-hero-web-course-4/niche-website-server-side-Subrata34"><i class="fab fa-github">Server site  Link</i></a></p> 
+                 <p style={{marginLeft:"60px"}} ><a  href="https://github.com/Subrata34/niche-website-server-side-Subrata34"><i class="fab fa-github">Server site  Link</i></a></p> 
                  </div>
                  </div>
 
