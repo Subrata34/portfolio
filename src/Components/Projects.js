@@ -6,12 +6,12 @@ const Projects = () => {
        <div>
            <h1 style={{color:"white"}}> Porjects</h1>
            <div style={{display:"flex"}}>
-               <div class="card">
+               <div class="card" style={{backgroundColor:"#1d293a"}}>
                    <img style={{ width:"440px"}}
                     src="./image/image02.jpg" alt=""  />
                      <div class="container">
-                    <h4><b>Health Care</b></h4> 
-                    <p>This projects is about health care 
+                    <h4 style={{color:"white"}}>Health Care</h4> 
+                    <p style={{color:"white"}} >This projects is about health care 
                         Which user login by email and doctor see services   </p> 
                  </div>
                  <div style={{display:"flex"}}>
@@ -19,12 +19,12 @@ const Projects = () => {
                 <p style={{marginLeft:"90px"}} ><a  href="https://github.com/Subrata34/health-care-"><i class="fab fa-github">Github Link</i></a></p> 
                  </div>
                  </div>
-               <div class="card">
+               <div class="card" style={{backgroundColor:"#1d293a"}}>
                    <img style={{ width:"440px"}}
                     src="./image/image03.jpg" alt=""  />
                      <div class="container">
-                    <h4><b>Health Care</b></h4> 
-                    <p>This projects is about health care 
+                    <h4 style={{color:"white"}}>A car shop</h4> 
+                    <p style={{color:"white"}}>This projects is about health care 
                         Which user login by email and doctor see services   </p> 
                  </div>
                  <div style={{display:"flex"}}>

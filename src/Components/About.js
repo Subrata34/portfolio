@@ -5,6 +5,11 @@ const About = () => {
     return (
         <div style={{color:"black"}}>
             <h1 style={{color:"white"}}>About Me</h1>
+            <div>
+                <div>
+                    
+                </div>
+            <div>
             <h4 style={{fontSize:"35px",color:"#00CF5D"}}>I am  Subrata Modak and I am a <span style={{color:"orange"}}>
                 <Typewriter
                     options={{
@@ -25,7 +30,8 @@ const About = () => {
                using latest tools and platforms for designing and developing powerful user-friendly interfaces. 
             </p>
 
-
+          </div>
+          </div>
             
         </div>
     )

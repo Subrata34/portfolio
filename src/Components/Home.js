@@ -53,7 +53,7 @@ const Home = () => {
               </div>
            </div>
            <div>
-               <h1></h1>
+               
                <img style={{width:"400px",clipPath:"circle()"}} src="./image/image01.jpg"  alt="" />
            </div>
         </div>
